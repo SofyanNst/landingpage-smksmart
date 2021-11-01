@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    behavior: smooth;
 }
 
 
@@ -94,8 +95,33 @@ bg-white {
 }
 
 /* CONTACT US */
-.contact-us {
+#contact-us {
     background-color: #0D0D0D;
     width: 100%;
-    height: 50vh;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.smksmart {
+    font-size: 18px;
+    font-weight: 600;
+    color: #D97904;
+}
+
+.address {
+    font-weight: 200;
+}
+
+.sub-address {
+    font-weight: 200;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 575.98px) {
+    .contact-us {
+        text-align: center;
+    }
 }
