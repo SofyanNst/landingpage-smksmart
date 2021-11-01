@@ -121,7 +121,7 @@ ul {
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 575.98px) {
-    .contact-us {
+    #contact-us {
         text-align: center;
     }
 }
