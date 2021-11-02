@@ -19,6 +19,14 @@ bg-white {
 }
 
 /* HOME SECTION */
+
+.img-slide {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
 .about-us-background {
     background-color: #fff;
     width: 100%;
